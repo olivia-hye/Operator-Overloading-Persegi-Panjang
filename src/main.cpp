@@ -23,7 +23,7 @@ int main(){
     cout << "Nama  : Muhammad Irsyad Rafi Saputra" << endl; 
     cout << "NRP   : 5024211034" << endl;
     cout << "Kelas : Pemrograman Lanjut A" << endl << endl;
-    cout << "Tekan ENTER Untuk Masuk Ke Menu Program";
+    cout << "Tekan ENTER Untuk Masuk Ke Menu Input";
     cin.ignore();
 
     ClearScreen();
