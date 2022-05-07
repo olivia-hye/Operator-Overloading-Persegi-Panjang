@@ -51,18 +51,6 @@ PersegiPanjang PersegiPanjang::operator - (PersegiPanjang const &p2)
     if (this->ymax < p2.ymax) {temp.ymax = this->ymax;}
     else {temp.ymax = p2.ymax;}
     if(*this == p2){return temp;}
-
-    
-}
-
-float PersegiPanjang::operator[] (int i)
-{
-    switch(i){
-        case 1: return this-> xmin; break; 
-        case 2: return this-> ymin; break; 
-        case 3: return this-> xmax; break; 
-        case 4: return this-> ymax; break;
-    }
 }
 
 PersegiPanjang PersegiPanjang::operator ++ (int)
@@ -110,6 +98,16 @@ PersegiPanjang PersegiPanjang::operator -- (int)
     this->ymin = yTengah - lebar/2;
     this->ymax = yTengah + lebar/2;
     return *this;
+}
+
+float PersegiPanjang::operator[] (int i)
+{
+    switch(i){
+        case 1: return this-> xmin; break; 
+        case 2: return this-> ymin; break; 
+        case 3: return this-> xmax; break; 
+        case 4: return this-> ymax; break;
+    }
 }
 
 void PersegiPanjang::print()

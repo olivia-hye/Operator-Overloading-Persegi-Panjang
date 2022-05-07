@@ -14,9 +14,9 @@ class PersegiPanjang{
     bool operator == (PersegiPanjang const &);
     PersegiPanjang operator + (PersegiPanjang const &);
     PersegiPanjang operator - (PersegiPanjang const &);
-    float operator [] (int);
     PersegiPanjang operator ++ (int);
     PersegiPanjang operator -- (int);
+    float operator [] (int);
     void print();
     };
 
