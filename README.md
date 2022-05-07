@@ -1,4 +1,4 @@
-# OPERATOR OVERLOADING PERSEGI PANJANG - 5024211034
+# OPERATOR OVERLOADING PERSEGI PANJANG
 
 Tugas Pemrograman Lanjut (A) - Institut Teknologi Sepuluh Nopember Surabaya
 
