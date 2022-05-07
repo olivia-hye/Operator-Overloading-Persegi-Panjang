@@ -74,6 +74,7 @@ PersegiPanjang PersegiPanjang::operator ++ (int)
 
     this->ymin = yTengah - lebar/2;
     this->ymax = yTengah + lebar/2;
+    return *this;
 }
 
 PersegiPanjang PersegiPanjang::operator -- (int)

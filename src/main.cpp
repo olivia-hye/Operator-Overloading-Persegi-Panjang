@@ -105,7 +105,7 @@ int main(){
                     ClearScreen();
                     Hasil=P1-P2;
                     cout << "Hasil Pengurangan Persegi Panjang 1 Dengan Persegi Panjang 2:" << endl;
-                    cout << "------------------------------------------------------------" << endl;
+                    cout << "-------------------------------------------------------------" << endl;
                     Hasil.print();
                     cin.ignore(); cin.ignore();
                     break;
@@ -121,6 +121,7 @@ int main(){
                 Temp = P1;
                 P1++;
                 cout << "Persegi Panjang 1 ++" << endl;
+                cout << "--------------------" << endl;
                 P1.print();
                 P1 = Temp;
                 cin.ignore(); cin.ignore();
@@ -129,6 +130,7 @@ int main(){
                 Temp = P2;
                 P2++;
                 cout << "Persegi Panjang 2 ++" << endl;
+                cout << "--------------------" << endl;
                 P2.print();
                 P2 = Temp;
                 cin.ignore();
@@ -139,6 +141,7 @@ int main(){
                 Temp = P1;
                 P1--;
                 cout << "Persegi Panjang 1 --" << endl;
+                cout << "--------------------" << endl;
                 P1.print();
                 P1 = Temp;
                 cin.ignore(); cin.ignore();
@@ -147,6 +150,7 @@ int main(){
                 Temp = P2;
                 P2--;
                 cout << "Persegi Panjang 2 --" << endl;
+                cout << "--------------------" << endl;
                 P2.print();
                 P2 = Temp;
                 cin.ignore();
