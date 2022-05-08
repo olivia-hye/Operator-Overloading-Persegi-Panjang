@@ -60,9 +60,6 @@ PersegiPanjang PersegiPanjang::operator ++ (int)
     panjang = this->xmax - this->xmin;
     lebar   = this->ymax - this->ymin;
     
-    panjang = abs (panjang);
-    lebar   = abs (lebar);
-    
     xTengah = this->xmin + panjang/2;
     yTengah = this->ymin + lebar/2;
 
@@ -83,9 +80,6 @@ PersegiPanjang PersegiPanjang::operator -- (int)
 
     panjang = this->xmax - this->xmin;
     lebar   = this->ymax - this->ymin;
-    
-    panjang = abs (panjang);
-    lebar   = abs (lebar);
 
     xTengah = this->xmin + panjang/2;
     yTengah = this->ymin + lebar/2;
@@ -116,9 +110,6 @@ void PersegiPanjang::print()
     float panjang, lebar, xTengah, yTengah;
     panjang = this->xmax - this->xmin;
     lebar   = this->ymax - this->ymin;
-    
-    panjang = abs (panjang);
-    lebar   = abs (lebar);
     
     xTengah = this->xmin + panjang/2;
     yTengah = this->ymin + lebar/2;
